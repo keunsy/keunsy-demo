@@ -1,0 +1,2 @@
+config.center = http://172.31.101.248:8002/cs/core
+zero.pub.address = tcp://172.31.101.248:5563

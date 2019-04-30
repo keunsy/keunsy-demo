@@ -1,0 +1,8 @@
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\config\ZuulRoute.java
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\module\CustomBeanModule.java
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\config\RouteConfig.java
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\server\CustomServerStartup.java
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\filter\inbound\RouteInboundFilter.java
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\netty\CustomNettyOriginManager.java
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\netty\CustomNettyOrigin.java
+D:\dev\IdeaProjects\fs-zuul\fs-zuul2-server\src\main\java\com\fxiaoke\zuul\ZuulBootServer.java

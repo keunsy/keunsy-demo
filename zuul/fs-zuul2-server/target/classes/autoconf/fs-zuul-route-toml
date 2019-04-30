@@ -1,0 +1,23 @@
+[test1]
+  path = "/book/**"
+  url= "http://localhost:8090"
+
+[temp1]
+  url =  "http://localhost:8061,http://localhost:8062"
+ loadBalanceRule="WeightedResponseTimeRule"
+
+[gray]
+  url = "http://172.29.0.96:8061"
+  grayHeaderKey= "ei"
+  grayValues= ["123","124"]
+  grayUrl = "http://localhost:8062"
+  stripPrefix = true
+
+[demo]
+  url =  "http://172.29.0.96:8061"
+  readTimeout = 60000
+
+[chenr]
+  url =  "http://172.29.0.96:8061"
+  readTimeout = 60000
+  stripPrefix = true
