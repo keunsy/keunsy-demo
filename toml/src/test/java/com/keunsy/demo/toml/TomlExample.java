@@ -54,7 +54,11 @@ public class TomlExample {
     String title = toml.getString("title");
     String subTitle = toml.getString("\"sub title\"");
 
+
     Toml database = toml.getTable("database");
+
+    String string = database.getString("\"a.test\"");
+
     List<Toml> rules = database.getTables("rules");
 
     Boolean enabled = toml.getBoolean("database.enabled");
@@ -69,7 +73,6 @@ public class TomlExample {
     String network2Name = toml.getString("networks[1].name"); // "Level 2"
     List<Toml> network3Operators = toml.getTables("networks[2].operators");
     String network3Operator2Location = toml.getString("networks[2].operators[1].location"); // "Paris"
-
 
   }
 
@@ -90,6 +93,11 @@ public class TomlExample {
     String name;
     Address address;
     Map<String, Object> contacts;
+  }
+
+
+  class Temp {
+    String a;
   }
 
 }

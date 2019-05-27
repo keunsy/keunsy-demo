@@ -10,6 +10,8 @@
     <module>toml</module>
     <module>web-test</module>
     <module>netty</module>
+    <module>aeron</module>
+    <module>protostuff</module>
   </modules>
   <parent>
     <groupId>com.keunsy</groupId>
