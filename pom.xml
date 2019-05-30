@@ -12,6 +12,7 @@
     <module>netty</module>
     <module>aeron</module>
     <module>protostuff</module>
+    <module>aviator</module>
   </modules>
   <parent>
     <groupId>com.keunsy</groupId>
